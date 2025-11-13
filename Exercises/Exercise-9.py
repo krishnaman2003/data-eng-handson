@@ -3,7 +3,6 @@ class Vehicle:
         self.make = make
         self.model = model
 
-
 class Car(Vehicle):
     def __init__(self, make, model, num_doors):
         super().__init__(make, model)
@@ -13,7 +12,6 @@ class Car(Vehicle):
         print(f"Make: {self.make}")
         print(f"Model: {self.model}")
         print(f"Number of Doors: {self.num_doors}")
-
 
 # Example
 car = Car("Toyota", "Camry", 4)
